@@ -1,0 +1,248 @@
+body{
+    background-attachment: fixed;
+}
+
+#logo{
+    position: absolute;
+    left: 76px;
+    top: 46px;
+}
+
+#name{
+    position: absolute;
+    width: 117px;
+    height: 21px;
+    left: 115px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+#destination{
+    position: absolute;
+    width: 118px;
+    height: 22px;
+    left: 25%;
+    top: 30px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#activities{
+    position: absolute;
+width: 86px;
+height: 22px;
+left: 36%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#aboutUs{
+    position: absolute;
+width: 86px;
+height: 22px;
+left: 40%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#contact{
+    position: absolute;
+width: 74px;
+height: 22px;
+left: 50%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#login{
+    position: absolute;
+width: 128px;
+height: 22px;
+left: 60%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#sideMenuBar{
+    position: absolute;
+    top: 45px;
+    left: 93%;
+}
+
+#userLogin{
+    
+    position: absolute;
+    width: 30%;
+    height: 75px;
+    left: 190px;
+    top: 150px;
+    
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    }
+
+.loginIMG{
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    top: 5px;
+    left: 5px;
+}
+
+#loginText-1{
+    position: absolute;
+width: 248px;
+height: 50px;
+left: 95px;
+top: -25px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 49px;
+
+color: #FFFFFF;
+}
+
+#feedbackBox{
+    position: absolute;
+width: 75%;
+height: 460px;
+left: 190px;
+top: 250px;
+
+background: rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+
+#guidance{
+    position: absolute;
+width: 476px;
+height: 51px;
+left: 40%;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 51px;
+letter-spacing: 0.55em;
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+#prof{
+    position: absolute;
+width: 458px;
+height: 52px;
+left: 40%;
+top: 75px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 49px;
+
+color: #FFFFFF;
+}
+
+#avatar{
+    position: absolute;
+left: 30%;
+top: 75px;
+
+
+}
+
+#person1{
+    position: absolute;
+    top: 225px;
+    left: 5%;
+
+}
+
+#person2{
+    position: absolute;
+    top: 225px;
+    left: 35%;
+}
+
+#person3{
+    position: absolute;
+    top: 225px;
+    left: 70%;
+}
+
+#person4{
+    position: absolute;
+    top: 345px;
+    left: 20%;
+}
+
+#person5{
+    position: absolute;
+    top: 345px;
+    left: 55%;
+}
+
+.personImg{
+    position: absolute;
+    height: 75px;
+    width: 75px;
+}
+
+.personText{
+    position: absolute;
+width: 300px;
+left: 85px;
+top: -20px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 37px;
+
+color: #FFFFFF;
+}

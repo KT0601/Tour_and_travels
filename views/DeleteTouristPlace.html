@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+          font-size: 120%;
+        }
+        form {
+          text-align: center;
+        }
+        label {
+            display: inline-block;
+        }
+        button{
+          margin-left: 5%;
+          margin-top: 5%;
+          border: none;
+          color: black;
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+        } 
+        .nav_bar{
+         background-color:black;
+         height: 50px;
+        } 
+        .nav-link{
+          position: absolute;
+          top: 20px;
+          left: 10%;
+          color: white;
+        } 
+        #logout-link{
+          position: absolute;
+          left: 85%;
+          top: 20px;  
+          color: white;
+        } 
+     </style>
+     <div class="nav_bar">
+      <nav id="topnav">
+       <a class="nav-link" href="admin.html">Home</a>
+       <a id="logout-link" href="index.html">Logout</a>
+       </nav>
+       </div>
+<h2 align="center">Update Hotel</h2>
+<form action="/DeleteTouristPlace" method="post">
+  <label for="Hotel_ID">Enter Hotel_ID</label><br>
+  <input type="number" name="hotel_ID" id="hotel_ID"><br>
+  <label for="hotel_Name">Enter Hotel Name</label><br>
+  <input type="text" name="hotel_Name" id="hotel_Name"><br>
+  <label for="nhotel_ID">Enter New Hotel_ID</label><br>
+  <input type="text" name="nhotel_ID" id="nhotel_ID"><br>
+  <label for="location">Enter Place_ID</label><br>
+  <input type="text" name="Location" id="Location"><br>
+  <label for="address">Enter Address</label><br>
+  <input type="text" name="address" id="address"><br>
+  <label for="Hotel_Type">Enter Hotel type</label><br>
+  <input type="text" name="Hotel_Type" id="Hotel_Type"><br>
+  <button type="submit">submit</button>
+</form>
+</form>
+</body>
+</html>

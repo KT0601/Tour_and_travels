@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body {
+          font-size: 120%;
+        }
+        form {
+          text-align: center;
+        }
+        label {
+            display: inline-block;
+        }
+        button{
+          margin-left: 5%;
+          margin-top: 5%;
+          border: none;
+          color: black;
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+        }  
+        .nav_bar{
+         background-color:black;
+         height: 50px;
+        } 
+        .nav-link{
+          position: absolute;
+          top: 20px;
+          left: 10%;
+          color: white;
+        } 
+        #logout-link{
+          position: absolute;
+          left: 85%;
+          top: 20px;  
+          color: white;
+        } 
+     </style>
+     <div class="nav_bar">
+      <nav id="topnav">
+       <a class="nav-link" href="admin.html">Home</a>
+       <a id="logout-link" href="index.html">Logout</a>
+       </nav>
+       </div>
+<h2 align="center">Add Tourist Place</h2>
+<form action="/AddTouristPlace" method="post">
+  <label for="place_Id">Enter place_ID</label><br>
+  <input type="number" name="place_Id" id="place_Id"><br>
+  <label for="location">Enter name of Tourist Place</label><br>
+  <input type="text" name="Location" id="Location"><br>
+  <label for="State">Enter name of State</label><br>
+  <input type="text" name="State" id="State"><br>
+  <label for="Country">Enter name of Country</label><br>
+  <input type="text" name="Country" id="Country"><br>
+  <button type="submit">submit</button>
+</form>
+</body>
+</html>

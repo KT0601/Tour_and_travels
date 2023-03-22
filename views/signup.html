@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/signup.css">
+        <title>Travel.to</title>
+    </head>
+<script>
+            function popUp(){
+                alert("Login Required!");
+            }
+        
+    function check(){
+
+ let a= document.sign.password.value;
+ let b= document.sign.confirmPassword.value;
+ let c = document.sign.contact.value;
+
+ if(a!=b){
+    alert("password and confirmpassword are not same");
+    event.preventDefault();
+ }else if(c.length != 10){
+    alert("Invalid phone number");
+    event.preventDefault();
+ }
+ 
+
+    }
+
+    
+</script>
+    <body background="../static/BG-1.png">
+        <img src="../static/Logo.png" id = "logo" height="30px" width="30px">
+        <h5 id = "name">TRAVEL.to</h5>
+        <!-- <p id = "destination">Destinations</p>
+        <p id = "activities">Activities</p> -->
+        <a href="signup.html" onclick="popUp()" ><p id = "aboutUs">About Us</p></a>
+        <a href="signup.html" onclick="popUp()"><p id = "contact">Feedback</p></a>
+        <!-- <img src = "../static/sideMenuBar.png" id = "sideMenuBar" height="22px" width="35px"> -->
+        <div id="userLogin">
+            <img src="../static/userLogin.png" class="loginIMG">
+            <p id="loginText-1">New User Registration</p>
+        </div>
+        <div id="registerBox">
+            <p id="name1">Name</p>
+            <p id="password">Password</p>
+            <p id="confirmPassword">Confirm Password</p>
+            <p id="email">E-mail</p>
+            <p id="contact1">Contact number</p>
+            <p id="address">Address</p>
+            <form action="/signup" method="post" name="sign" onsubmit="check()">
+                <input id="namefield" name="Name" type="text" placeholder="Name" required>
+                <input id="passwordfield" name="password" type="password" placeholder="Password"required>
+                <input id="confirmpasswordfield" name="confirmPassword" type="password" placeholder="Confirm Password"required>
+                <input id="emailfield" name="email" type="email" placeholder="E-mail id"required>
+                <input id="contactfield" name="contact"type="text" placeholder="Contact number"required>
+                <input id="addressfield" name="address" type="text" placeholder="Address" required>
+                <button id="submit" type="submit">Register</button></a>
+
+            </form>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <script src="../static/showhotel.js"></script> -->
+
+</head>
+<style>
+    .nav_bar{
+        background-color: black;
+         height: 50px;
+    }
+    #generate{
+        position: absolute;
+        left: 37%;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    #button{
+        position: absolute;
+        top: 150px;
+        left: 45%;
+    }
+    #dvTable{
+        position: absolute;
+        top: 200px;
+       
+    }
+    .nav-link{
+          position: absolute;
+          top: 20px;
+          left: 10%;
+          color: white;
+        } 
+        #logout-link{
+          position: absolute;
+          left: 85%;
+          top: 20px;  
+          color: white;
+        }
+</style>
+<script>
+function GenerateTable() {
+
+var name = '<%= name %>'   ;
+
+name=name.replace(/&#34;/ig,'"');
+console.log(name);
+
+var customers = JSON.parse(name);
+console.log(customers);
+
+
+
+
+
+var table = document.createElement("TABLE");
+    table.border = "1";
+    // let out = "";
+
+
+    var row = table.insertRow(-1);
+    var headerCell = document.createElement("TH");
+            headerCell.innerHTML = "user_id";
+            row.appendChild(headerCell);
+            headerCell = document.createElement("TH");
+            headerCell.innerHTML = "message";
+            row.appendChild(headerCell);
+           headerCell = document.createElement("TH");
+            headerCell.innerHTML = "rating";
+            row.appendChild(headerCell); 
+            headerCell = document.createElement("TH");
+            headerCell.innerHTML = "hotel_rating";
+            row.appendChild(headerCell); 
+           headerCell = document.createElement("TH");
+            headerCell.innerHTML = "transport_rating";
+            row.appendChild(headerCell);
+
+
+    for(let customer of customers){
+
+     row = table.insertRow(-1);
+        // row = table.insertRow(-1);
+
+        console.log(customer.hotel_name);
+
+        headerCell = row.insertCell(-1);
+        headerCell.innerHTML = customer.user_id;
+         headerCell = row.insertCell(-1);
+        headerCell.innerHTML = customer.message; 
+        headerCell = row.insertCell(-1);
+        headerCell.innerHTML = customer.rating;
+        headerCell = row.insertCell(-1);
+        headerCell.innerHTML = customer.hotel_rating;
+        headerCell = row.insertCell(-1);
+        headerCell.innerHTML = customer.transport_rating;
+ 
+
+        }
+
+    var dvTable = document.getElementById("dvTable");
+    dvTable.innerHTML = "";
+    dvTable.appendChild(table);
+
+// console.log(name);
+}
+</script>
+<body>
+    <div class="nav_bar">
+        <nav id="topnav">
+         <a class="nav-link" href="admin.html">Home</a>
+         <a id="logout-link" href="index.html">Logout</a>
+         </nav>
+         </div>
+    <p id="generate">Generate Feedback Table</p>
+    <input type="button" id = "button" value="Generate Table" onclick="GenerateTable()" />
+    <hr />
+    <div id="dvTable"></div>
+    
+</body>
+</html>

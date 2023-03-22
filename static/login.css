@@ -1,0 +1,313 @@
+#logo{
+    position: absolute;
+    left: 76px;
+    top: 46px;
+}
+
+#name{
+    position: absolute;
+    width: 117px;
+    height: 21px;
+    left: 115px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+#destination{
+    position: absolute;
+    width: 118px;
+    height: 22px;
+    left: 30%;
+    top: 30px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#activities{
+    position: absolute;
+width: 86px;
+height: 22px;
+left: 40%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#aboutUs{
+    position: absolute;
+width: 86px;
+height: 22px;
+left: 50%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#contact{
+    position: absolute;
+width: 74px;
+height: 22px;
+left: 60%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#sideMenuBar{
+    position: absolute;
+    top: 45px;
+    left: 93%;
+}
+
+#userLogin{
+    
+position: absolute;
+width: 30%;
+height: 75px;
+left: 190px;
+top: 200px;
+
+background: rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+
+#adminLogin{
+    position: absolute;
+width: 30%;
+height: 75px;
+left: 850px;
+top: 200px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 5px;
+}
+
+.loginIMG{
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    top: 5px;
+    left: 5px;
+}
+
+#loginText-1{
+    position: absolute;
+width: 248px;
+height: 50px;
+left: 75px;
+top: -10px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 49px;
+
+color: #FFFFFF;
+}
+
+#loginText-2{
+    position: absolute;
+width: 248px;
+height: 50px;
+left: 75px;
+top: -10px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 49px;
+
+color: black;
+}
+
+#userLoginBox{
+    position: absolute;
+width: 30%;
+height: 350px;
+left: 190px;
+top: 300px;
+
+background: rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+
+#adminLoginBox{
+    position: absolute;
+width: 30%;
+height: 350px;
+left: 850px;
+top: 300px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 5px;
+}
+
+.idText{
+    top: 0px;
+    left: 10px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 39px;
+
+color: #FFFFFF;
+}
+
+.idText2{
+    top: 0px;
+    left: 10px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 39px;
+
+color: black;
+}
+
+#userid{
+    position: absolute;
+width: 90%;
+height: 50px;
+left: 10px;
+top: 60px;
+text-align: center;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+}
+
+#adminid{
+    position: absolute;
+width: 90%;
+height: 50px;
+left: 10px;
+top: 60px;
+text-align: center;
+
+background: rgba(0,0,0,0.5);
+border-radius: 10px;
+}
+
+.passwordText{
+    top: 100px;
+    left: 10px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 39px;
+
+color: #FFFFFF;
+}
+
+.passwordText2{
+    top: 100px;
+    left: 10px;
+    position: absolute;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 39px;
+
+color: black;
+}
+
+#password{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    left: 10px;
+    top: 160px;
+    text-align: center;
+    
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+#adminPassword{
+    position: absolute;
+    width: 90%;
+    height: 50px;
+    left: 10px;
+    top: 160px;
+    text-align: center;
+    
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#submit{
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    left: 140px;
+    top: 250px;
+    text-align: center;
+    
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+#adminSubmit{
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    left: 140px;
+    top: 250px;
+    text-align: center;
+    
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+#signup{
+    position: absolute;
+    top: 290px;
+    left: 110px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 39px;
+
+color: #FFFFFF;
+}

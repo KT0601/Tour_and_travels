@@ -1,0 +1,371 @@
+#logo{
+    position: absolute;
+    left: 76px;
+    top: 46px;
+}
+
+#name{
+    position: absolute;
+    width: 117px;
+    height: 21px;
+    left: 115px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+#destination{
+    position: absolute;
+    width: 118px;
+    height: 22px;
+    left: 25%;
+    top: 30px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#activities{
+    position: absolute;
+width: 86px;
+height: 22px;
+left: 36%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#aboutUs{
+    position: absolute;
+width: 86px;
+height: 22px;
+left: 35%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#contact{
+    position: absolute;
+width: 74px;
+height: 22px;
+left: 45%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#login{
+    position: absolute;
+width: 128px;
+height: 22px;
+left: 55%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#sideMenuBar{
+    position: absolute;
+    top: 45px;
+    left: 93%;
+}
+
+#userLogin{
+    
+    position: absolute;
+    width: 30%;
+    height: 75px;
+    left: 190px;
+    top: 150px;
+    
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    }
+
+.loginIMG{
+    position: absolute;
+    height: 65px;
+    width: 65px;
+    top: 5px;
+    left: 5px;
+}
+
+#loginText-1{
+    position: absolute;
+width: 248px;
+height: 50px;
+left: 95px;
+top: -25px;
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 49px;
+
+color: #FFFFFF;
+}
+
+#registerBox{
+    position: absolute;
+width: 75%;
+height: 460px;
+left: 190px;
+top: 250px;
+
+background: rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+
+#hotel{
+    position: absolute;
+width: 254px;
+height: 40px;
+left: 15px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+#transport{
+    position: absolute;
+width: 400px;
+height: 40px;
+left: 15px;
+top: 80px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+#rating{
+    position: absolute;
+width: 254px;
+height: 40px;
+left: 15px;
+top: 160px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+#feedback{
+    position: absolute;
+width: 400px;
+height: 40px;
+left: 15px;
+top: 240px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+#feedback2{
+    position: absolute;
+    width:  95%;
+    height: 50px;
+    left: 15px;
+    top: 320px;
+    text-align: center;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+#submit{
+    position: absolute;
+    width: 20%;
+    height: 50px;
+    left: 450px;
+    top: 400px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+
+
+#container1{
+    position: absolute;
+    width: 30%;
+    height: 75px;
+    left: 450px;
+    top: 30px;    
+}
+
+#container2{
+    position: absolute;
+    width: 30%;
+    height: 75px;
+    left: 450px;
+    top: 110px;  
+}
+
+#container3{
+    position: absolute;
+    width: 30%;
+    height: 75px;
+    left: 450px;
+    top: 190px;  
+}
+.rate1 {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate1:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate1:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate1:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate1 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate1:not(:checked) > label:hover,
+.rate1:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate1 > input:checked + label:hover,
+.rate1 > input:checked + label:hover ~ label,
+.rate1 > input:checked ~ label:hover,
+.rate1 > input:checked ~ label:hover ~ label,
+.rate1 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+.rate2 {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate2:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate2:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate2:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate2 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate2:not(:checked) > label:hover,
+.rate2:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate2 > input:checked + label:hover,
+.rate2 > input:checked + label:hover ~ label,
+.rate2 > input:checked ~ label:hover,
+.rate2 > input:checked ~ label:hover ~ label,
+.rate2 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+.rate3 {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate3:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate3:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate3:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate3 > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate3:not(:checked) > label:hover,
+.rate3:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate3 > input:checked + label:hover,
+.rate3 > input:checked + label:hover ~ label,
+.rate3 > input:checked ~ label:hover,
+.rate3 > input:checked ~ label:hover ~ label,
+.rate3 > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}

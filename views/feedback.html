@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/feedback.css">
+        <!-- <script src = "feedback.js"></script> -->
+        <title>Travel.to</title>
+    </head>
+
+
+   
+    <script>
+        function handleSubmit(){
+            alert("Submission successful!");
+        }
+        function popUp(){
+            alert("Already on Feedback.");
+        }
+    </script>
+    <body background="../static/BG-1.png">
+        <img src="../static/Logo.png" id = "logo" height="30px" width="30px">
+        <h5 id = "name">TRAVEL.to</h5>
+        <!-- <p id = "destination">Destinations</p>
+        <p id = "activities">Activities</p> -->
+        <a href="aboutUs.html"><p id = "aboutUs">About Us</p></a>
+        <a href="feedback.html" onclick="popUp()"><p id = "contact">Feedback</p></a>
+        <a href = "index.html"><p id = "login">Logout</p></a>
+        <!-- <img src = "../static/sideMenuBar.png" id = "sideMenuBar" height="22px" width="35px"> -->
+        <div id="userLogin">
+            <img src="../static/feedback.png" class="loginIMG">
+            <p id="loginText-1">Feedback</p>
+        </div>
+        <div id="registerBox">
+            <p id="hotel">Hotel Facilities</p>
+            <p id="transport">Transport Facilities</p>
+            <p id="rating">Overall Rating</p>
+            <p id="feedback">Other Feedback</p>
+            <form  action="/feedback" method="post" onsubmit="handleSubmit()">
+                <input type="text" id="feedback2" name="msg" placeholder="Open Ended">
+                <input type="submit" id="submit">
+                <div id="container1">
+                    <div class="rate1">
+                        <input type="radio" id="star15" name="rate1" value="5" />
+                        <label for="star15" title="text">5 stars</label>
+                        <input type="radio" id="star14" name="rate1" value="4" />
+                        <label for="star14" title="text">4 stars</label>
+                        <input type="radio" id="star13" name="rate1" value="3" />
+                        <label for="star13" title="text">3 stars</label>
+                        <input type="radio" id="star12" name="rate1" value="2" />
+                        <label for="star12" title="text">2 stars</label>
+                        <input type="radio" id="star11" name="rate1" value="1" />
+                        <label for="star11" title="text">1 star</label>
+                      </div>
+                </div>
+                <div id="container2">
+                    <div class="rate2">
+                        <input type="radio" id="star25" name="rate2" value="5" />
+                        <label for="star25" title="text">5 stars</label>
+                        <input type="radio" id="star24" name="rate2" value="4" />
+                        <label for="star24" title="text">4 stars</label>
+                        <input type="radio" id="star23" name="rate2" value="3" />
+                        <label for="star23" title="text">3 stars</label>
+                        <input type="radio" id="star22" name="rate2" value="2" />
+                        <label for="star22" title="text">2 stars</label>
+                        <input type="radio" id="star21" name="rate2" value="1" />
+                        <label for="star21" title="text">1 star</label>
+                      </div>
+                </div>
+                <div id="container3">
+                    <div class="rate3">
+                        <input type="radio" id="star35" name="rate3" value="5" />
+                        <label for="star35" title="text">5 stars</label>
+                        <input type="radio" id="star34" name="rate3" value="4" />
+                        <label for="star34" title="text">4 stars</label>
+                        <input type="radio" id="star33" name="rate3" value="3" />
+                        <label for="star33" title="text">3 stars</label>
+                        <input type="radio" id="star32" name="rate3" value="2" />
+                        <label for="star32" title="text">2 stars</label>
+                        <input type="radio" id="star31" name="rate3" value="1" />
+                        <label for="star31" title="text">1 star</label>
+                      </div>
+                </div>
+            </form>
+        </div>
+    </body>

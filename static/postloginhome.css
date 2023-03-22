@@ -1,0 +1,416 @@
+body{
+    background-attachment: fixed;
+}
+
+#logo{
+    position: absolute;
+    left: 76px;
+    top: 46px;
+}
+
+#name{
+    position: absolute;
+    width: 117px;
+    height: 21px;
+    left: 115px;
+    top: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+#destination{
+    position: absolute;
+    width: 118px;
+    height: 22px;
+    left: 25%;
+    top: 30px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+#activities{
+    position: absolute;
+width: 86px;
+height: 22px;
+left: 36%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#aboutUs{
+    position: absolute;
+width: 86px;
+height: 22px;
+left: 35%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#contact{
+    position: absolute;
+width: 74px;
+height: 22px;
+left: 45%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#login{
+    position: absolute;
+width: 128px;
+height: 22px;
+left: 55%;
+top: 30px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+}
+
+#sideMenuBar{
+    position: absolute;
+    top: 45px;
+    left: 93%;
+}
+
+#explore{
+    position: absolute;
+    width: 10%;
+    height: 37px;
+    left: 40%;
+    top: 200px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: 0.55em;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#travel{
+    position: absolute;
+    width: 50%;
+    height: 250px;
+    left: 250px;
+    top: 0px;
+
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 200px;
+    line-height: 305px;
+    color: #FFFFFF;
+}
+
+#plan{
+    position: absolute;
+width: 40%;
+height: 51px;
+left: 550px;
+top: 450px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 35px;
+line-height: 51px;
+letter-spacing: 0.55em;
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+#from{
+    position: absolute;
+width: 145px;
+height: 37px;
+left: 400px;
+top: 550px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+letter-spacing: 0.55em;
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+#to{
+    position: absolute;
+width: 145px;
+height: 37px;
+left: 1000px;
+top: 550px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 37px;
+/* identical to box height */
+
+letter-spacing: 0.55em;
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+#fromInput{
+    position: absolute;
+width: 500px;
+height: 60px;
+left: 225px;
+top: 630px;
+text-align: center;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+}
+
+#toInput{
+    position: absolute;
+    width: 500px;
+    height: 60px;
+    left: 800px;
+    top: 630px;
+    text-align: center;
+    
+    
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+#submit{
+    position: absolute;
+width: 250px;
+height: 60px;
+left: 650px;
+top: 725px;
+
+background: rgba(255, 255, 255, 0.5);
+border-radius: 10px;
+}
+
+#city1{
+    position: absolute;
+width: 80%;
+height: 500px;
+left: 10%;
+top: 850px;
+visibility: hidden;
+
+background: rgba(0, 0, 0, 0.5);
+border-radius: 5px;
+}
+
+#mumbai{
+    position: absolute;
+    width: 50%;
+    height: 250px;
+    left: -125px;
+    top: -150px;
+
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 305px;
+    color: #FFFFFF;
+}
+
+#transport{
+    position: absolute;
+width: 546px;
+height: 51px;
+top: 80px;
+left: 20px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 51px;
+letter-spacing: 0.55em;
+
+color: rgba(255, 255, 255, 0.7);
+}
+
+#hotel{
+    position: absolute;
+    width: 546px;
+    height: 51px;
+    top: 80px;
+    left: 600px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 51px;
+    letter-spacing: 0.55em;
+    
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#flight{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+}
+
+#train{
+    position: absolute;
+    top: 300px;
+    left: 55px;
+}
+
+#bus{
+    position: absolute;
+    top: 400px;
+    left: 60px;
+}
+
+#flightText{
+    position: absolute;
+width: 340px;
+height: 40px;
+top: 175px;
+left: 150px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+#trainText{
+    position: absolute;
+width: 340px;
+height: 40px;
+top: 275px;
+left: 150px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+#busText{
+    position: absolute;
+width: 340px;
+height: 40px;
+top: 375px;
+left: 150px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+#h1{
+    position: absolute;
+width: 500px;
+height: 40px;
+top: 175px;
+left: 650px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+color: #FFFFFF;
+}
+
+#h2{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    top: 275px;
+    left: 650px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #FFFFFF;
+}
+
+#h3{
+    position: absolute;
+    width: 500px;
+    height: 40px;
+    top: 375px;
+    left: 650px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    
+    color: #FFFFFF;
+}
+
+#book{
+    position: absolute;
+    width: 150px;
+    top: 50px;
+    height: 30px;
+    left: 1000px;
+    
+    
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}

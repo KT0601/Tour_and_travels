@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../static/postloginhome.css">
+        <title>Travel.to</title>
+    </head>
+
+    <script>
+
+        function popUp(){
+            alert("Ticket Booking successful.")
+        }
+        function handleSubmit(){
+            var v1 = document.travelForm.to.value;
+            let b = document.getElementById("city1");
+            let c = document.getElementById("mumbai");
+            c.innerHTML = v1;
+            b.style.visibility = "visible";
+        }
+    </script>   
+
+    <body background="../static/BG-1.png">
+        <img src="../static/Logo.png" id = "logo" height="30px" width="30px">
+        <h5 id = "name">TRAVEL.to</h5>
+        <!-- <p id = "destination">Destinations</p>
+        <p id = "activities">Activities</p> -->
+        <a href="aboutUs.html"><p id = "aboutUs">About Us</p></a>
+        <a href="feedback.html"><p id = "contact">Feedback</p></a>
+        <a href = "index.html"><p id = "login">Logout</p></a>
+        <!-- <img src = "../static/sideMenuBar.png" id = "sideMenuBar" height="22px" width="35px"> -->
+        <p id="explore">EXPLORE</p>
+        <p id="travel">TRAVEL.to</p>
+        <p id="plan">PLAN A TRIP</p>
+        <p id="from">FROM</p>
+        <p id="to">TO</p>
+        <form name="travelForm">
+            <input id="fromInput" type="text" name="from" placeholder="FROM">
+            <input id="toInput" type="text" name="to" placeholder="TO">
+        </form>
+        <button id="submit" onclick="handleSubmit()">Browse</button>
+        <div id="city1">
+            <p id="mumbai">MUMBAI</p>
+            <p id="transport">TRANSPORT</p>
+            <p id="hotel">HOTELS</p>
+            <img src="../static/flight.png" id="flight" height="50px" width="50px">
+            <img src="../static/train.png" id="train" height="50px" width="50px">
+            <img src="../static/bus.png" id="bus" height="50px" width="50px">
+            <p id="flightText">Flight - Rs. 10,000/-</p>
+            <p id="busText">Bus - Rs. 7,000/-</p>
+            <p id="trainText">Train - Rs. 5,000/-</p>
+            <p id="h1">H1(5-Star) - Rs 2,000/-</p>
+            <p id="h2">H2(5-star) - Rs 1,800/-</p>
+            <p id="h3">H3(3-star) - Rs 1,000/-</p>
+            <button id="book" type="button" onclick="popUp()">Book now</button>
+        </div>
+    </body>
+</html>
